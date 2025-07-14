@@ -1,0 +1,690 @@
+/* .page-title{
+    background-color: red !important;
+} */
+
+.bg-additional-grey {
+    background-color: #eef5ff
+}
+
+
+.rounded{
+        border-radius: 20px !important;
+            box-shadow: 0px 0px 16px #5555551f;
+    overflow: hidden;
+}
+
+/* Cards light theme  */
+.card {
+    border-radius: 20px !important;
+    box-shadow: 0px 0px 16px #5555551f;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card-of-index-no-class {
+    border-radius: 20px !important;
+    box-shadow: 0px 0px 16px #5555551f;
+    overflow: hidden;
+}
+
+
+.notice-change-css {
+    border-radius: 20px !important;
+    box-shadow: 0px 0px 16px #5555551f;
+    overflow: hidden;
+}
+
+
+
+#view-shifts{
+    margin-bottom: 5px !important;
+}
+.change-css1-card{
+        border-radius: 20px !important;
+    box-shadow: 0px 0px 16px #5555551f;
+    overflow: hidden;
+}
+
+
+
+
+/* body.dark-theme .card {
+    background: white !important;
+} */
+
+.btn-primary {
+    border-radius: 15px !important;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5) !important; /* blue glow */
+    padding: 10px 15px !important;
+    transition: box-shadow 0.3s ease !important;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5) !important; /* black glow on hover */
+}
+
+/* FullCalendar buttons */
+.fc-button-group .fc-button:first-child {
+    border-top-left-radius: 12px !important;
+    border-bottom-left-radius: 12px !important;
+}
+
+.fc-button-group .fc-button:last-child {
+    border-top-right-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+}
+
+.fc-today-button {
+    border-radius: 12px !important;
+    padding: 10px 15px !important;
+    transition: box-shadow 0.3s ease !important;
+}
+
+
+.progress {
+    border-radius: 17px !important;
+    overflow: hidden !important; /* ensure rounded ends show */
+}
+
+.progress-bar {
+    border-radius: 17px !important;
+}
+
+
+.page-item.week-timelog-day.active .page-link {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.7) !important; /* pure glow, no shadow offset */
+    transition: box-shadow 0.3s ease !important;
+}
+
+.page-item.week-timelog-day.active .page-link:hover {
+    box-shadow: 0 0 12px rgba(0, 123, 255, 0.9) !important; /* stronger glow on hover */
+}
+
+
+@media screen and (max-width: 1200px) {
+    .progress {
+    border-radius: 12px !important;
+    overflow: hidden !important; /* ensure rounded ends show */
+}
+
+.progress-bar {
+    border-radius: 12px !important;
+}
+}
+/* Dark theme  */
+body.dark-theme .badge-primary {
+    background-color: #001E89 !important;
+    color: white !important; /* if needed for contrast */
+    padding: 5px  !important;
+}
+body.dark-theme .bg-white,
+body.dark-theme .b-shadow-4 {
+    background: linear-gradient(
+        135deg,
+        #004d9a 0%,
+        #005a9e 50%,
+        #027bd8 100%
+    ) !important;
+    color: white !important;
+    border: none !important;
+}
+
+body.dark-theme .custom-select,
+body.dark-theme .form-control {
+    background: linear-gradient(
+        135deg,
+        #004d9a 0%,
+        #005a9e 50%,
+        #027bd8 100%
+    ) !important;
+    color: #fff !important;
+    border: none !important;
+    box-shadow: inset 0 0 0 1px #ffffff50 !important; /* creates a 1px inner border-like effect */
+    border-radius: 20px !important;
+}
+
+body.dark-theme .custom-select,
+body.dark-theme .form-control {
+    background-color: #004d9a;
+    color: #fff !important;
+}
+
+
+body.dark-theme select option {
+    background-color: #004d9a; /* fallback solid dark blue */
+    color: #fff;
+}
+
+body.dark-theme .paginate_button.page-item.previous.disabled,
+body.dark-theme .paginate_button.page-item.next.disabled {
+    background: linear-gradient(
+        135deg,
+        #004d9a 0%,
+        #005a9e 50%,
+        #027bd8 100%
+    ) !important;
+    border-radius: 20px !important;
+    border: none !important;
+        box-shadow: inset 0 0 0 1px #ffffff50 !important; /* creates a 1px inner border-like effect */
+}
+
+body.dark-theme .paginate_button.page-item.previous.disabled a,
+body.dark-theme .paginate_button.page-item.next.disabled a {
+    color: #fff !important;
+    border-radius: 20px !important;
+    border: none  !important;
+    background: transparent !important; /* ensure no white override from anchors */
+}
+
+
+
+body.dark-theme .main-header,
+body.dark-theme .bg-additional-grey,
+body.dark-theme .main-sidebar,
+body.dark-theme .bg-dark,
+body.dark-theme .bg-white-shade,
+body.dark-theme .board-panel,
+body.dark-theme .filter-box {
+    background: linear-gradient(
+        to right,
+        #0474cf 0%,
+        #06bee7 100%
+    ) !important;
+}
+
+
+
+body.dark-theme .card,
+body.dark-theme .change-css1-card,
+body.dark-theme .card-of-index-no-class,
+body.dark-theme .notice-change-css,
+body.dark-theme .e-d-info,
+body.dark-theme .card-header,
+body.dark-theme .card-footer,
+body.dark-theme .card-body,
+body.dark-theme tbody,
+body.dark-theme .form-control{
+    background: linear-gradient(
+        135deg,
+        #004d9a 0%,
+        #005a9e 50%,
+        #027bd8 100%
+    ) !important;
+    color: white !important;
+    border: none !important;
+}
+
+.position-relative.text-dark.form-control.border-0.p-2.text-left.f-14.f-w-500.border-additional-grey {
+    border-radius: 20px !important; /* ya jo bhi radius chahiye */
+    margin-bottom: 0.5rem; /* Bootstrap mb-2 = 0.5rem */
+}
+
+
+
+body.dark-theme .card,
+body.dark-theme .change-css1-card,
+body.dark-theme .card-of-index-no-class,
+body.dark-theme .notice-change-css,
+body.dark-theme .e-d-info{
+    background: linear-gradient(
+        135deg,
+        #004d9a  0%,
+        #005a9e 50%,
+        #027bd8 100%
+    ) !important;
+    color: white !important; /* optional for text readability */
+    border: none !important;
+}
+
+
+
+body.dark-theme .not-gr-on-dark,
+body.dark-theme #not-gr-on-dark-id,
+body.dark-theme .admin-dashboard ,
+body.dark-theme .content-wrapper{
+    background: none !important;
+    background-color: transparent !important; /* or your desired color */
+}
+
+
+body.dark-theme .text-darkest-grey,
+body.dark-theme .text-lightest,
+body.dark-theme .text-dark-grey,
+body.dark-theme .text-dark{
+    color: white !important; /* optional for text readability */
+
+}
+
+
+body.dark-theme  .not-gr-on-dark
+{
+    background-color: none !important;
+}
+
+
+body.dark-theme .fc-theme-standard .fc-list {
+    border: none !important;
+}
+
+
+body.dark-theme .b-shadow-4,
+body.dark-theme .qs-datepicker-container,
+body.dark-theme .form-control,
+body.dark-theme .w-tables,
+body.dark-theme .c-inv-desc table tr td,
+body.dark-theme .border,
+body.dark-theme .table-bordered,
+body.dark-theme .c-inv-total .c-inv-total-right td
+ {
+    border: none !important;
+}
+
+
+/*  */
+
+
+
+/* Sidebar main container styling */
+/* Sirf .sidebarTogglerBox ka bottom right rounded */
+/* Sirf .main-sidebar ka top right rounded */
+.main-sidebar {
+    padding: 20px !important;
+    border-top-right-radius: 12px; /* sirf top right corner rounded */
+    box-shadow: 0px 0px 16px #5555552f;
+    background-color: #fff !important;
+}
+
+
+
+body.sidebar-toggled .main-sidebar {
+    padding: 5px !important; /* minimal padding in collapsed state */
+}
+/* Sidebar dark theme override */
+
+/* Sidebar brand box (logo section) rounded and spaced */
+.sidebar-brand-box {
+    border-radius: 8px;
+    padding: 10px 15px; /* light grey */
+}
+
+/* Sidebar menu links styling */
+.sidebar-menu a { /* spacing between links */
+    border-radius: 8px !important; /* light grey background *//* dark text */
+    border: none !important;
+    transition: all 0.2s ease-in-out;
+}
+
+
+body.dark-theme .sidebar-menu,
+body.dark-theme .sidebar-brand-box{
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+
+/* Hover effect for links */
+.sidebar-menu a:hover {
+    background-color: #e2e6ea !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-decoration: none;
+    border-right: 2px solid #007bff !important;
+}
+
+
+.sidebar-menu a.active:hover{
+    background-color: #e2e6ea !important;
+}
+
+body.dark-theme .sidebar-menu a:hover {
+    background: linear-gradient(
+        135deg,
+        #004d9a 0%,
+        #005a9e 50%,
+        #027bd8 100%
+    ) !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    text-decoration: none;
+    color: #fff !important; /* ensure text is white on gradient */
+}
+
+body.dark-theme.sidebar-toggled .sidebar-menu a:hover {
+    padding: 10px 10px !important;
+}
+ 
+/* Active menu item styling */
+.sidebar-menu .active > a {
+    background-color: #0474cf !important;
+    color: #fff !important;
+    box-shadow: 0 2px 8px rgba(4, 116, 207, 0.4);
+}
+
+/* Remove any inherited borders */
+.sidebar-menu, .sidebar-menu li, .sidebar-menu a {
+    border: none !important;
+}
+
+
+/* Optional: overall sidebar smoother edges */
+aside {
+    border-radius: 12px;
+}
+
+
+
+.main-header {
+    border-radius: 12px; /* rounded corners */
+    box-shadow: 0px 0px 16px #5555551a; /* subtle shadow */
+    background-color: #fff !important; /* white background */
+    transition: all 0.3s ease; /* smooth transition on changes */
+}
+
+body.dark-theme .main-header,
+body.dark-theme aside,
+body.dark-theme .main-sidebar  {
+        border-radius: 0px !important; 
+        box-shadow: 0px !important;
+}
+
+
+/* Optional: Adjust for dark theme if required */
+/* body.dark-theme .main-header {
+    background: linear-gradient(to right, #213883 0%, #2ABAC6 100%) !important;
+    color: #fff !important;
+} */
+
+
+
+body.sidebar-toggled .sidebar-brand-logo {
+    overflow: visible !important;
+}
+
+body.sidebar-toggled .sidebar-brand-box{
+    padding: 10px 0px !important;
+}
+
+
+
+
+body.dark-theme ::-webkit-scrollbar {
+    width: 10px !important;
+    height: 10px !important;
+    background: transparent !important; /* ensures no default white */
+}
+
+body.dark-theme ::-webkit-scrollbar-track {
+    background: linear-gradient(
+        135deg,
+        #027bd8 0%,
+        #005a9e 50%,
+        #004d9a 100%
+    ) !important;
+    border-radius: 8px !important;
+    background-clip: padding-box !important; /* ensures background clips to padding area */
+    border: none !important; /* removes any default border */
+}
+
+body.dark-theme ::-webkit-scrollbar-thumb {
+    background-color: #6C6F8A !important;
+    border-radius: 8px !important;
+    border: none !important;
+}
+
+body.dark-theme ::-webkit-scrollbar-thumb:hover {
+    background-color: #8D91AB !important;
+}
+
+
+
+body.dark-theme .btn-primary {
+    background: linear-gradient(
+        135deg,
+        #004d9a 0%,
+        #005a9e 50%,
+        #027bd8 100%
+    ) !important;
+    border: none !important; /* optional: removes default border */
+    color: #fff !important; /* ensures text is white */
+}
+  
+
+
+.sidebar-menu li {
+    box-shadow: none !important;
+}
+
+
+body.dark-theme .btn-primary {
+    border-radius: 15px !important;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5) !important; /* blue glow */
+    padding: 10px 15px !important;
+    transition: box-shadow 0.3s ease !important;
+    border: none !important;
+    outline: none !important;
+    background: linear-gradient(
+        135deg,
+        #0055b0 0%,   /* slightly deeper blue */
+        #0063b8 50%,  /* adjusted mid blue */
+        #0285e0 100%  /* adjusted lighter blue */
+    ) !important;
+}
+
+body.dark-theme .btn-primary:hover {
+        border: none !important;
+    outline: none !important;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5) !important; /* black glow on hover */
+    transform: none !important; /* disable width or scale increase on hover */
+}
+
+body.dark-theme .fc-today-button {
+    border-radius: 12px !important;
+    padding: 7px 15px !important;
+    transition: box-shadow 0.3s ease !important;
+    border: none !important;
+    background: linear-gradient(
+        135deg,
+        #0055b0 0%,
+        #0063b8 50%,
+        #0285e0 100%
+    ) !important;
+        border: none !important;
+    outline: none !important;
+}
+
+body.dark-theme .fc-today-button:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5) !important; /* black glow on hover */
+    transform: none !important; /* disable width or scale increase on hover */
+        border: none !important;
+    outline: none !important;
+}
+
+
+body.dark-theme .modal-content {
+    background: linear-gradient(
+        135deg,
+        #003d80 0%,
+        #004c8c 50%,
+        #0260aa 100%
+    ) !important;
+    color: white !important;
+    border: none !important;
+}
+
+body.dark-theme .modal-dialog {
+    background: linear-gradient(
+        135deg,
+        #003d80 0%,   /* darker blue */
+        #004c8c 50%,  /* mid dark blue */
+        #0260aa 100%  /* slightly lighter but still dark blue */
+    ) !important;
+    color: white !important;
+    border: none !important;
+}
+
+
+/* Gradient for the dropdown toggle button */
+body.dark-theme .btn.dropdown-toggle.btn-light {
+    background: linear-gradient(
+        135deg,
+        #004d9a 0%,
+        #005a9e 50%,
+        #027bd8 100%
+    ) !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+/* Main dropdown menu background and text */
+body.dark-theme .dropdown-menu.show {
+    background-color: #4a4a4a !important; /* dark gray background */
+    color: #fff !important;
+    border: none !important;
+}
+
+/* Targeting the inner ul when dropdown is shown */
+body.dark-theme .dropdown-menu.inner.show {
+    background-color: #4a4a4a !important; /* dark gray background */
+    color: #fff !important;
+    border: none !important;
+}
+
+/* List items inside the ul */
+body.dark-theme .dropdown-menu.inner.show li {
+    background-color: transparent !important; /* keep li transparent, ul gives bg */
+}
+
+body.dark-theme .dropdown-menu.inner.show li a {
+    color: #fff !important; /* option text white */
+}
+
+/* Hover effect on options for better UX */
+body.dark-theme .dropdown-menu.inner.show li a:hover {
+    background-color: #5a5a5a !important; /* slightly lighter gray on hover */
+    color: #fff !important;
+}
+
+
+body.dark-theme .thead-light th {
+    border-right: 1px solid #666 !important; /* darker border color for dark theme */
+}
+
+body.dark-theme .thead-light th:first-child,
+body.dark-theme .thead-light th:last-child {
+    border-right: none !important;
+}
+
+/* Buttons with class change-shift-week in dark theme */
+body.dark-theme .change-shift-week {
+    border-radius: 5px !important;
+    background: linear-gradient(
+        135deg,
+        #004894 0%,   /* deeper dark blue */
+        #045394 50%,  /* mid dark blue */
+        #0260aa 100%  /* slightly lighter blue */
+    ) !important;
+    color: #fff !important;
+    border: none !important;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5) !important; /* blue glow */
+    transition: box-shadow 0.3s ease !important;
+}
+
+body.dark-theme .change-shift-week:hover {
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.7) !important; /* stronger glow on hover */
+}
+
+
+body.dark-theme .thead-lightP{
+    border-radius: 10px !important;
+}
+
+body.dark-theme .input-group.bg-grey.rounded{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+body.dark-theme .input-group-text.border-0{
+    border-radius: 25px;
+    margin-right: 5px;
+        background: linear-gradient(
+        135deg,
+        #0a5aaf 0%,   /* deeper dark blue */
+        #0b62a8 50%,  /* mid dark blue */
+        #1168ac 100%  /* slightly lighter blue */
+    ) !important;
+    border: none !important;
+}
+
+body.dark-theme .fc-day-today {
+    background: linear-gradient(
+        135deg,
+        #1b74ce 0%,
+        #3d87c0 50%,
+        #55a9e9 100%
+    ) !important;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5) !important; /* blue glow */
+    color: #fff !important; /* ensure text is visible */
+    border-radius: 5px !important; /* optional rounded corners */
+    transition: box-shadow 0.3s ease !important;
+}
+
+body.dark-theme .fc-day-today:hover {
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.7) !important; /* stronger glow on hover */
+}
+
+
+body.dark-theme .settings-btns {
+    background: linear-gradient(
+        135deg,
+        #003d80 0%,   /* deeper dark blue */
+        #004c8c 50%,  /* mid dark blue */
+        #0260aa 100%  /* slightly lighter blue */
+    ) !important;
+    color: #fff !important; /* ensure text is white in dark theme */
+    border: none !important;
+}
+
+
+/* Normal state - light theme */
+.task_view_more {
+    background-color: transparent; /* default transparent in light theme *//* ensure text is white */
+    border: none !important;
+    transition: background 0.3s ease !important;
+        border-radius: 12px !important;
+    padding: 7px 10px !important;
+}
+
+/* Hover state - light theme */
+.task_view_more:hover {
+    background-color: #007bff !important; /* primary blue on hover */
+    color: #fff !important;
+}
+
+.task_view{
+    border: none !important;
+    outline: none !important;
+}
+
+/* Dark theme normal state - light gradient */
+body.dark-theme .task_view_more {
+    background: linear-gradient(
+        135deg,
+        #0055b0 0%,   /* lighter dark blue */
+        #0063b8 50%,  /* mid blue */
+        #0285e0 100%  /* lighter blue */
+    ) !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+/* Dark theme hover state - solid primary */
+body.dark-theme .task_view_more:hover {
+    background-color: #007bff !important; /* primary blue on hover */
+    color: #fff !important;
+}
+
+/* Light theme: hover effect with primary text color */
+.settings-sidebar .settings-menu li a:hover {
+    border-right: 2px solid #007bff !important;
+    /* background-color: #f0f0f0 !important; keeps gray background on hover */
+    color: #007bff !important; /* Bootstrap primary blue text */
+}
+
